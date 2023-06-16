@@ -133,8 +133,8 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
   let newArreglo = []
-  for (let i = 0; i < arreglo1; i++){
-    for (let z = 0; z < arreglo2; i++){
+  for (let i = 0; i < arreglo1.length; i++){
+    for (let z = 0; z < arreglo2.length; z++){
       if (arreglo1[i] === arreglo2[z]) {
         newArreglo.push(arreglo1[i])
       }
